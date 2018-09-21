@@ -12,6 +12,7 @@
 		FF34CDFC2154785500E5A6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34CDFA2154785500E5A6D1 /* Main.storyboard */; };
 		FF34CDFE2154785700E5A6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF34CDFD2154785700E5A6D1 /* Assets.xcassets */; };
 		FF34CE012154785700E5A6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34CDFF2154785700E5A6D1 /* LaunchScreen.storyboard */; };
+		FF34CE092154858F00E5A6D1 /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = FF34CE082154858E00E5A6D1 /* Buttons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FF34CDFD2154785700E5A6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF34CE002154785700E5A6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF34CE022154785700E5A6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF34CE082154858E00E5A6D1 /* Buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Buttons; path = ../../../Users/harshkeshwala/Downloads/Buttons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FF34CDF52154785500E5A6D1 /* MAPD714-F2018-Lesson3 */ = {
 			isa = PBXGroup;
 			children = (
+				FF34CE082154858E00E5A6D1 /* Buttons */,
 				FF34CDF62154785500E5A6D1 /* AppDelegate.swift */,
 				FF34CDF82154785500E5A6D1 /* ViewController.swift */,
 				FF34CDFA2154785500E5A6D1 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				FF34CE012154785700E5A6D1 /* LaunchScreen.storyboard in Resources */,
 				FF34CDFE2154785700E5A6D1 /* Assets.xcassets in Resources */,
+				FF34CE092154858F00E5A6D1 /* Buttons in Resources */,
 				FF34CDFC2154785500E5A6D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

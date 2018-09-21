@@ -10,16 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Instance Variables
+    var hasDecimal:Bool = false
+    @IBOutlet weak var resultArea: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    //IBActions
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onNumberButtonPress(_ sender: UIButton) {
+        
+        if(resultArea.text == "0"){
+            resultArea.text = ""
+        }
+        resultArea.text?.append(String(sender.tag))
     }
-
-
+    
 }
 
